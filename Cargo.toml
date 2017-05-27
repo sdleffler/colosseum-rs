@@ -1,6 +1,6 @@
 [package]
 name = "colosseum"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sean Leffler <sean@errno.com>"]
 
 description = """
@@ -8,8 +8,8 @@ A variety of arena allocators for Rust, including thread-safe arenas.
 """
 
 documentation = "https://docs.rs/colosseum"
-homepage = "https://github.com/sdleffler/colosseum"
-repository = "https://github.com/sdleffler/colosseum"
+homepage = "https://github.com/sdleffler/colosseum-rs"
+repository = "https://github.com/sdleffler/colosseum-rs"
 
 readme = "README.md"
 
@@ -20,4 +20,4 @@ categories = ["concurrency", "memory-management"]
 license = "MIT/Apache-2.0"
 
 [badges]
-travis-ci = { repository = "https://github.com/sdleffler/colosseum" }
+travis-ci = { repository = "https://github.com/sdleffler/colosseum-rs" }
