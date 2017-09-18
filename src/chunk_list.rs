@@ -84,4 +84,10 @@ impl<T> ChunkList<T> {
 
         &mut self.current[next_item_index..]
     }
+
+
+    #[cfg(test)]
+    pub fn rest(&self) -> &[Vec<T>] {
+        &*self.rest
+    }
 }
