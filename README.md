@@ -5,8 +5,8 @@
 # `colosseum`: A variety of arena allocators for Rust
 
 At present, the `colosseum` crate provides the following arena allocators:
- * `Arena`: a simple arena allocator for a single type - non thread-safe.
- * `AtomicArena`: a thread-safe arena allocator.
+ * `unsync::Arena`: a simple arena allocator for a single type.
+ * `sync::Arena`: a thread-safe version of `unsync::Arena`.
 
 ## License
 
